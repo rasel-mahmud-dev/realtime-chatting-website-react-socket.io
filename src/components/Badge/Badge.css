@@ -1,0 +1,99 @@
+:root {
+    --red: #ff2b2b;
+    --blue: #007bff;
+    --green: rgb(37, 228, 94);
+    --pink: #fd2c8c;
+    --orange: #ff7c0e;
+    --green: #1cd847;
+    --purple: #662bd2;
+    --white: #fff;
+    --dark: #2e3338;
+}
+
+.badge_root {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+}
+
+.badge {
+    font-family: Poppins;
+    position: absolute;
+    font-size: 9px; 
+    padding: 0px 5px;
+    margin: 0;
+    font-weight: 500;
+    margin-left: 5px;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    display: inline-block;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.badge_top {
+    align-self: flex-start;
+    transform: translate(-6px, -10px);
+    margin: 0;
+}
+.badge_left {
+    align-self: flex-start;
+    /* transform: translate(-6px, -10px); */
+    margin: 0;
+    order: 1;
+}
+
+.notification_icon {
+    font-size: 20px;
+    color: #3f51b5
+}
+
+
+/* .............Themes............. */
+
+.badge-red {
+    background: var(--red);
+    color: white;
+}
+
+.badge-blue {
+    background: var(--blue);
+    color: white;
+}
+
+.badge-green {
+    background: var(--green);
+    color: white;
+}
+
+.badge-pink {
+    background: var(--pink);
+    color: white;
+}
+.badge-purple {
+    background: var(--purple);
+    color: white;
+}
+.badge-orange {
+    background: var(--orange);
+    color: white;
+}
+.badge-dark {
+    background: var(--dark);
+    color: white;
+}
+.badge-white {
+    background: var(--white);
+    color: var(--dark);
+}
+
+.badge-transparent {
+    background: #f8030300;
+    box-shadow: none;
+    color: var(--dark);
+    font-size: 19px;
+    font-family: roboto slab;
+    letter-spacing: 1.2px;
+}
+

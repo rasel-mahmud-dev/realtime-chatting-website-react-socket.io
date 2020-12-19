@@ -1,0 +1,39 @@
+
+
+.navigation{
+  box-shadow: 0 0 7px 0px #909090f5;
+  background: #ececec;
+
+  .main_nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0px 30px;
+
+    .common_nav{
+      
+    }
+
+    .auth_nav{
+
+    }
+
+    .nav-item{
+      margin-right: 10px;
+      a{
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+.active{
+  color: red;
+  font-weight: 700;
+}

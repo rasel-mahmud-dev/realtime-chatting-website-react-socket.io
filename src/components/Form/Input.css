@@ -1,0 +1,69 @@
+
+.input_group{
+  background: rgb(255, 255, 255);
+  margin: 10px 0px;
+}
+
+.input{
+  border: 1px solid #ada3a3;
+  outline: none;
+  box-shadow: 0 0 5px 0px #525252;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input:focus,
+.input:hover{
+  border: 1px solid #1ca220;
+  box-shadow: 0 0 5px 0px #328035;
+}
+
+.input.input_success{
+  border: 1px solid #1ca220;
+  box-shadow: 0 0 5px 0px #328035;
+}
+.input.input_error{
+  border: 1px solid rgb(253, 57, 57);
+  box-shadow: 0 0 5px 0px rgb(253, 57, 57);
+  color: rgb(253, 57, 57);
+}
+
+label{
+  display: block;
+}
+
+.alert_error{
+  color: red;
+  display: block;
+}
+
+
+
+.textarea{
+  border: 1px solid #ada3a3;
+  box-shadow: 0 0 5px 0px #525252;
+  outline: none;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  width: 100% !important;
+  box-sizing: border-box;
+  min-height: 100px ;
+}
+
+.textarea:hover,
+.textarea:focus{
+  border: 1px solid #1ca220;
+  box-shadow: 0 0 5px 0px #328035;
+}
+
+.textarea.textarea_success{
+  border: 1px solid #1ca220;
+  box-shadow: 0 0 5px 0px #328035;
+}
+.textarea.textarea_error{
+  border: 1px solid rgb(253, 57, 57);
+  box-shadow: 0 0 5px 0px rgb(253, 57, 57);
+  color: rgb(253, 57, 57);
+}

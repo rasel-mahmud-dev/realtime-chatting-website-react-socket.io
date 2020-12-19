@@ -1,0 +1,178 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+    // "editor.lineNumbers": "off",
+  // "editor.folding": false,
+  "editor.glyphMargin": false,
+  "window.zoomLevel": 0,
+  // "window.zoomLevel": 0,
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.tabSize": 2,
+  "editor.lineHeight": 19,
+  "workbench.tree.indent": 10,
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 12,
+  "editor.fontWeight": "500",
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontWeight": "500",
+  // "workbench.statusBar.visible": true,
+
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascriptreact"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+
+  "workbench.colorCustomizations": {
+    
+  },
+  "editor.tokenColorCustomizations": {
+
+    
+    // Synctax Color
+    "textMateRules": []
+  },
+
+
+
+  
+  // Better Comment
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+
+    // custom color
+    {
+      "tag": "Note",
+      "color": "#8aff04",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "-",
+      "color": "#349ba8",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": ".",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "~",
+      "color": "#6f8083",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "=",
+      "color": "#007add",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "^",
+      "color": "#ad005f",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "|",
+      "color": "#06af00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": ">",
+      "color": "#df6c6c",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "<",
+      "color": "#886fe6",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "_",
+      "color": "#dc6fe6",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ]  
+}
+  
+// this is default comment 
+// ? Another Comment
+// ! Another Comment
+// . Another Comment 
+// * Another Comment
+// ~ Anoher Comment 
+// - Another Comment
+// = Another Comment 
+// ^ Another Comment
+// > Another Comment
+// < Another Comment
+// _ Another Comment
+// | Another Comment
+
+/**
+ * ! Danger
+ * . Yellow Color
+ * = Blue Comment
+ * - light Comment
+ * ? Info Comments
+ * . Yellow Color
+ * ~ Grey Comment
+ * | green Comment
+ *   defautl comment
+ */
+
+

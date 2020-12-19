@@ -1,0 +1,52 @@
+
+
+.notification_panel{
+  position: absolute;
+  background: #ececec;
+  box-shadow: 0px 1px 7px 0px #9c9595;
+  min-width: 200px;
+  padding: 10px 10px;
+  top: 28px;
+  right: -160px;
+  z-index: 100;
+  overflow-y: auto;
+  max-height: 50vh;
+  .notification_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px 0px;
+    border-bottom: 1px solid #ababab63;
+    padding-bottom: 3px;
+    .left{
+      display: flex;
+      align-items: center;
+      .notification_message {
+        margin-left: 5px;
+        color: #3b3b3b;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 400;
+      }
+    }
+    .right{
+        .fa-clock{
+          font-size: 15px;
+          color: #445bfd;;
+          font-weight: 400;
+        }
+      .time{
+        font-size: 14px;
+        margin-left: 5px;
+        color: grey;
+      }
+    }
+  }
+}
+
+.badge_root{
+  cursor: pointer;
+  .fa-bell{
+    color: #ff2068;
+  }
+}

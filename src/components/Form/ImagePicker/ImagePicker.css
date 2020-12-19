@@ -1,0 +1,10 @@
+
+.preview_image{
+  height: 200px !important;
+  width: 340px !important;
+}
+
+
+.preview_image img{
+  width: 100%
+}

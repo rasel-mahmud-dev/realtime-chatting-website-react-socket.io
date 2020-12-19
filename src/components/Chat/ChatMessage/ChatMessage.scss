@@ -1,0 +1,53 @@
+@import '../../../mixin.scss';
+
+.chat-message-div{
+  flex: 7;
+  position: relative;
+  margin-top: 20px;
+
+  box-sizing: border-box;
+  margin-right: 20px;
+  background: rgba(255, 0, 0, 0.089);
+}
+
+.chatMessage {
+  padding: 0 30px;
+  overflow-x: auto;
+  height: calc(100vh - 110px);
+  .messages-list {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .message {
+      padding: 8px 15px;
+      margin: 2px;
+      margin-left: 10px;
+      display: inline-block;
+      border-radius: 11px;
+    }
+
+    ;
+
+    .friend-message {
+      @include list-reset;
+      display: flex;
+
+
+      .message {
+        color: #404040;
+        background: #abcdff7d;
+      }
+    }
+  }
+
+  .own-message {
+    @include list-reset;
+    align-self: flex-end;
+
+    .message {
+      color: rgb(50, 132, 255);
+      background: #fa9e9e7d;
+    }
+  }
+}

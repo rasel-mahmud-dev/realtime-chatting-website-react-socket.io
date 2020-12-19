@@ -1,0 +1,28 @@
+
+
+.textarea{
+  border: 1px solid #ada3a3;
+  box-shadow: 0 0 5px 0px #525252;
+  outline: none;
+  padding: 5px 10px;
+  margin: 5px 0px;
+  width: 100% !important;
+  box-sizing: border-box;
+  min-height: 100px ;
+}
+
+.textarea:hover,
+.textarea:focus{
+  border: 1px solid #1ca220;
+  box-shadow: 0 0 5px 0px #328035;
+}
+
+.textarea.textarea_success{
+  border: 1px solid #1ca220;
+  box-shadow: 0 0 5px 0px #328035;
+}
+.textarea.textarea_error{
+  border: 1px solid rgb(253, 57, 57);
+  box-shadow: 0 0 5px 0px rgb(253, 57, 57);
+  color: rgb(253, 57, 57);
+}

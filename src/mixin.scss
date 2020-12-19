@@ -1,0 +1,38 @@
+@mixin list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+//. Sass Media Queries...........
+$HD-width : 1200px;
+$desktop-width : 1024px;
+$tablet-width : 768px;
+$mobile-width : 510px;
+
+@mixin HD {
+  @media (min-width: #{$desktop-width}) and (max-width: 2500px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{ $desktop-width }) and (max-width: #{ $HD-width - 1 }) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1}) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1}) {
+    @content;
+  }
+}
+@mixin xmobile {
+  @media (min-width: 0px) and (max-width: #{$mobile-width - 1}) {
+    @content;
+  }
+}
